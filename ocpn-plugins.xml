@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <plugins>
   <version>0.0.0</version>
-  <date>2026-08-26 13:08</date>
+  <date>2026-08-29 14:05</date>
   <plugin version="1">
     <name> TideFinder </name>
     <version> 1.4.3+1316.v1.4.3-beta </version>
@@ -1103,28 +1103,6 @@ on weather data, automatic boat polar computation.
     <target-arch>x86_64</target-arch>
     <tarball-url> https://dl.cloudsmith.io/public/quinton/weather_routing_pi-alpha/raw/names/WeatherRouting-1.15-flatpak-x86_64-24.08-tarball/versions/1.15.45.9-beta+1892.873d998/WeatherRouting-1.15.45.9-beta+1892.873d998_flatpak-x86_64-24.08-x86_64.tar.gz </tarball-url>
     <tarball-checksum> 5483dbb0bb0c258d48a3d0a7261dba4592d1d705dad87a73118e2fc6298749a6 </tarball-checksum>
-  </plugin>
-  <plugin version="1">
-    <name> Mayara </name>
-    <version> 0.1.0.0 </version>
-    <release> 0 </release>
-    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
-    <api-version> 1.21 </api-version>
-    <open-source> yes </open-source>
-    <author> opencpn-radar-pi </author>
-    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
-    <description>
-mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
-</description>
-    <target>flatpak-aarch64</target>
-    <build-target>flatpak</build-target>
-    <build-gtk/>
-    <target-version>25.08</target-version>
-    <target-arch>aarch64</target-arch>
-    <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.0.0-flatpak-aarch64-25.08-flatpak-tarball/versions/0.1.0.0+100.e125946/mayara_pi-0.1.0.0-aarch64_flatpak-25.08.tar.gz
-</tarball-url>
-    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> Celestial Navigation </name>
@@ -2822,28 +2800,6 @@ https://dl.cloudsmith.io/public/steven-adler/twocanplugin-prod/raw/names/twocan_
     <info-url> https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:developer_manual:plugins:beta_plugins:twocan_pi </info-url>
   </plugin>
   <plugin version="1">
-    <name> Mayara </name>
-    <version> 0.1.0.0 </version>
-    <release> 0 </release>
-    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
-    <api-version> 1.21 </api-version>
-    <open-source> yes </open-source>
-    <author> opencpn-radar-pi </author>
-    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
-    <description>
-mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
-</description>
-    <target>debian-x86_64</target>
-    <build-target>debian</build-target>
-    <build-gtk>gtk3</build-gtk>
-    <target-version>13</target-version>
-    <target-arch>x86_64</target-arch>
-    <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.0.0-debian-x86_64-13-trixie-tarball/versions/0.1.0.0+100.e125946/mayara_pi-0.1.0.0-debian-x86_64-13-trixie.tar.gz
-</tarball-url>
-    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
-  </plugin>
-  <plugin version="1">
     <name> TideFinder </name>
     <version> 1.4.3+1308.v1.4.3-beta </version>
     <release> 1 </release>
@@ -3071,28 +3027,6 @@ Provide a slider to adjust chart scale
 https://dl.cloudsmith.io/public/opencpn/chartscale-prod/raw/names/chartscale_pi-0.3.12.0-debian-armhf-11-bullseye-armhf-tarball/versions/v0.3.12.0/chartscale_pi-0.3.12.0-debian-armhf-11-bullseye-armhf.tar.gz
 </tarball-url>
     <info-url> https://opencpn.org/OpenCPN/plugins/chartscale.html </info-url>
-  </plugin>
-  <plugin version="1">
-    <name> Mayara </name>
-    <version> 0.1.0.0 </version>
-    <release> 0 </release>
-    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
-    <api-version> 1.21 </api-version>
-    <open-source> yes </open-source>
-    <author> opencpn-radar-pi </author>
-    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
-    <description>
-mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
-</description>
-    <target>debian-arm64</target>
-    <build-target>debian</build-target>
-    <build-gtk>gtk3</build-gtk>
-    <target-version>13</target-version>
-    <target-arch>arm64</target-arch>
-    <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.0.0-debian-arm64-13-trixie-tarball/versions/0.1.0.0+100.e125946/mayara_pi-0.1.0.0-debian-arm64-13-trixie.tar.gz
-</tarball-url>
-    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> OCPN Draw </name>
@@ -3447,6 +3381,28 @@ https://dl.cloudsmith.io/public/opencpn/admiralty-tide-prod/raw/names/admiralty_
     <info-url> https://opencpn-manuals.github.io/main/admiralty/index.html </info-url>
   </plugin>
   <plugin version="1">
+    <name> Mayara </name>
+    <version> 0.1.3.0 </version>
+    <release> 0 </release>
+    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
+    <api-version> 1.21 </api-version>
+    <open-source> yes </open-source>
+    <author> opencpn-radar-pi </author>
+    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
+    <description>
+mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
+</description>
+    <target>darwin-wx32</target>
+    <build-target>darwin</build-target>
+    <build-gtk/>
+    <target-version>14.8.7</target-version>
+    <target-arch>arm64;x86_64</target-arch>
+    <tarball-url>
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.3.0-darwin-wx32-arm64-x86_64-14.8.7-macos-tarball/versions/v0.1.3/mayara_pi-0.1.3.0-darwin-wx32-arm64-x86_64-14.8.7-macos.tar.gz
+</tarball-url>
+    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
+  </plugin>
+  <plugin version="1">
     <name> Windvane </name>
     <version> 1.0.28.0 </version>
     <release> 0 </release>
@@ -3568,28 +3524,6 @@ OpenCPN.
     <target-arch>arm64</target-arch>
     <tarball-url> https://dl.cloudsmith.io/public/opencpn/otcurrent-prod/raw/names/otcurrent-v4.3.0-android-arm64-A64-16-tarball/versions/v4.3.0/otcurrent-v4.3.0_android-arm64-16-arm64.tar.gz </tarball-url>
     <tarball-checksum> 8fc7027b8396dd5dd136f3ca4c28d255043e142d405c28c6d01a2129fdcf75c4 </tarball-checksum>
-  </plugin>
-  <plugin version="1">
-    <name> Mayara </name>
-    <version> 0.1.0.0 </version>
-    <release> 0 </release>
-    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
-    <api-version> 1.21 </api-version>
-    <open-source> yes </open-source>
-    <author> opencpn-radar-pi </author>
-    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
-    <description>
-mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
-</description>
-    <target>msvc-wx32</target>
-    <build-target>msvc</build-target>
-    <build-gtk/>
-    <target-version>10.0.20348</target-version>
-    <target-arch>x86</target-arch>
-    <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.0.0-msvc-x86-wx32-10.0.20348-MSVC-tarball/versions/0.1.0.0+100.e125946/mayara_pi-0.1.0.0-msvc-x86-wx32-10.0.20348-MSVC.tar.gz
-</tarball-url>
-    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> Calculator </name>
@@ -4023,6 +3957,28 @@ https://dl.cloudsmith.io/public/steven-adler/engineplugin-prod/raw/names/engine_
     <info-url> https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:developer_manual:plugins:beta_plugins:engine-dash </info-url>
   </plugin>
   <plugin version="1">
+    <name> Mayara </name>
+    <version> 0.1.3.0 </version>
+    <release> 0 </release>
+    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
+    <api-version> 1.21 </api-version>
+    <open-source> yes </open-source>
+    <author> opencpn-radar-pi </author>
+    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
+    <description>
+mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
+</description>
+    <target>debian-x86_64</target>
+    <build-target>debian</build-target>
+    <build-gtk>gtk3</build-gtk>
+    <target-version>24.04</target-version>
+    <target-arch>x86_64</target-arch>
+    <tarball-url>
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.3.0-debian-x86_64-24.04-noble-tarball/versions/v0.1.3/mayara_pi-0.1.3.0-debian-x86_64-24.04-noble.tar.gz
+</tarball-url>
+    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
+  </plugin>
+  <plugin version="1">
     <name> Race Start Display </name>
     <version> 1.1.0.0 </version>
     <release> 0 </release>
@@ -4356,6 +4312,28 @@ OCPN_DRAW (OD) is a plugin that extends the capability of OCPN to include non-st
 https://dl.cloudsmith.io/public/opencpn/ocpn_draw-beta/raw/names/ocpn_draw_pi-1.8.60.0-debian-arm64-12-bookworm-arm64-tarball/versions/1.8.60.0+8095.1d3288b/ocpn_draw_pi-1.8.60.0-debian-arm64-12-bookworm-arm64.tar.gz
 </tarball-url>
     <info-url> https://opencpn.org/OpenCPN/plugins/draw.html </info-url>
+  </plugin>
+  <plugin version="1">
+    <name> Mayara </name>
+    <version> 0.1.3.0 </version>
+    <release> 0 </release>
+    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
+    <api-version> 1.21 </api-version>
+    <open-source> yes </open-source>
+    <author> opencpn-radar-pi </author>
+    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
+    <description>
+mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
+</description>
+    <target>debian-armhf</target>
+    <build-target>debian</build-target>
+    <build-gtk>gtk3</build-gtk>
+    <target-version>22.04</target-version>
+    <target-arch>armhf</target-arch>
+    <tarball-url>
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.3.0-debian-armhf-22.04-jammy-tarball/versions/v0.1.3/mayara_pi-0.1.3.0-debian-armhf-22.04-jammy.tar.gz
+</tarball-url>
+    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> TwoCan Plugin </name>
@@ -5164,6 +5142,28 @@ https://dl.cloudsmith.io/public/opencpn/rtlsdr-prod/raw/names/rtlsdr_pi-1.4.8.0-
     <info-url> https://opencpn.org/OpenCPN/plugins/rtlsdr.html </info-url>
   </plugin>
   <plugin version="1">
+    <name> Mayara </name>
+    <version> 0.1.3.0 </version>
+    <release> 0 </release>
+    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
+    <api-version> 1.21 </api-version>
+    <open-source> yes </open-source>
+    <author> opencpn-radar-pi </author>
+    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
+    <description>
+mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
+</description>
+    <target>debian-armhf</target>
+    <build-target>debian</build-target>
+    <build-gtk>gtk3</build-gtk>
+    <target-version>24.04</target-version>
+    <target-arch>armhf</target-arch>
+    <tarball-url>
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.3.0-debian-armhf-24.04-noble-tarball/versions/v0.1.3/mayara_pi-0.1.3.0-debian-armhf-24.04-noble.tar.gz
+</tarball-url>
+    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
+  </plugin>
+  <plugin version="1">
     <name> OCPN Draw </name>
     <version> 1.8.58.0 </version>
     <release> 0 </release>
@@ -5599,6 +5599,28 @@ Windvane Autopilot is designed to use the wind instruments and autopilot on boar
 https://dl.cloudsmith.io/public/opencpn/windvane-beta/raw/names/windvane_pi-1.0.28.0-debian-arm64-11-bullseye-arm64-tarball/versions/1.0.28.0+1627.a49c24b/windvane_pi-1.0.28.0-debian-arm64-11-bullseye-arm64.tar.gz
 </tarball-url>
     <info-url> https://opencpn.org/wiki/dokuwiki/doku.php?id=opencpn:opencpn_user_manual:plugins:sailing:windvane </info-url>
+  </plugin>
+  <plugin version="1">
+    <name> Mayara </name>
+    <version> 0.1.3.0 </version>
+    <release> 0 </release>
+    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
+    <api-version> 1.21 </api-version>
+    <open-source> yes </open-source>
+    <author> opencpn-radar-pi </author>
+    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
+    <description>
+mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
+</description>
+    <target>debian-arm64</target>
+    <build-target>debian</build-target>
+    <build-gtk>gtk3</build-gtk>
+    <target-version>13</target-version>
+    <target-arch>arm64</target-arch>
+    <tarball-url>
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.3.0-debian-arm64-13-trixie-tarball/versions/v0.1.3/mayara_pi-0.1.3.0-debian-arm64-13-trixie.tar.gz
+</tarball-url>
+    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> Celestial Navigation </name>
@@ -7856,6 +7878,28 @@ data from itself. This can be replayed to simulate collision situations.
     <tarball-checksum> 0ad0fd836aee2dd55731680cc0ec327f12bc8d81e7844dae27ff06a6e54adec2 </tarball-checksum>
   </plugin>
   <plugin version="1">
+    <name> Mayara </name>
+    <version> 0.1.3.0 </version>
+    <release> 0 </release>
+    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
+    <api-version> 1.21 </api-version>
+    <open-source> yes </open-source>
+    <author> opencpn-radar-pi </author>
+    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
+    <description>
+mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
+</description>
+    <target>debian-x86_64</target>
+    <build-target>debian</build-target>
+    <build-gtk>gtk3</build-gtk>
+    <target-version>13</target-version>
+    <target-arch>x86_64</target-arch>
+    <tarball-url>
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.3.0-debian-x86_64-13-trixie-tarball/versions/v0.1.3/mayara_pi-0.1.3.0-debian-x86_64-13-trixie.tar.gz
+</tarball-url>
+    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
+  </plugin>
+  <plugin version="1">
     <name> ShipDriver </name>
     <version> v3.3.0-beta7 </version>
     <release>  </release>
@@ -8757,6 +8801,28 @@ https://dl.cloudsmith.io/public/opencpn/tactics-prod/raw/names/tactics_pi-1.0.81
     <info-url> https://opencpn.org/OpenCPN/plugins/tactics.html </info-url>
   </plugin>
   <plugin version="1">
+    <name> Mayara </name>
+    <version> 0.1.3.0 </version>
+    <release> 0 </release>
+    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
+    <api-version> 1.21 </api-version>
+    <open-source> yes </open-source>
+    <author> opencpn-radar-pi </author>
+    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
+    <description>
+mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
+</description>
+    <target>debian-arm64</target>
+    <build-target>debian</build-target>
+    <build-gtk>gtk3</build-gtk>
+    <target-version>12</target-version>
+    <target-arch>arm64</target-arch>
+    <tarball-url>
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.3.0-debian-arm64-12-bookworm-tarball/versions/v0.1.3/mayara_pi-0.1.3.0-debian-arm64-12-bookworm.tar.gz
+</tarball-url>
+    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
+  </plugin>
+  <plugin version="1">
     <name> Deviation </name>
     <version> 0.1.60.0 </version>
     <release> 0 </release>
@@ -8924,28 +8990,6 @@ Admiralty tide calculations
 https://dl.cloudsmith.io/public/opencpn/admiralty-tide-prod/raw/names/admiralty_tide_tables_pi-0.1.18.0-debian-arm64-12-bookworm-arm64-tarball/versions/v0.1.18.0/admiralty_tide_tables_pi-0.1.18.0-debian-arm64-12-bookworm-arm64.tar.gz
 </tarball-url>
     <info-url> https://opencpn-manuals.github.io/main/admiralty/index.html </info-url>
-  </plugin>
-  <plugin version="1">
-    <name> Mayara </name>
-    <version> 0.1.0.0 </version>
-    <release> 0 </release>
-    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
-    <api-version> 1.21 </api-version>
-    <open-source> yes </open-source>
-    <author> opencpn-radar-pi </author>
-    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
-    <description>
-mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
-</description>
-    <target>debian-x86_64</target>
-    <build-target>debian</build-target>
-    <build-gtk>gtk3</build-gtk>
-    <target-version>12</target-version>
-    <target-arch>x86_64</target-arch>
-    <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.0.0-debian-x86_64-12-bookworm-tarball/versions/0.1.0.0+100.e125946/mayara_pi-0.1.0.0-debian-x86_64-12-bookworm.tar.gz
-</tarball-url>
-    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> WeatherRouting </name>
@@ -9148,6 +9192,28 @@ NmeaConverter is a plugin where you can manipulate or add new nmea sentences. It
 https://dl.cloudsmith.io/public/opencpn/nmeaconverter-prod/raw/names/nmeaconverter_pi-1.4.15.0-msvc-x86_64-wx32-10.0.20348-MSVC-tarball/versions/v1.4.15.0/nmeaconverter_pi-1.4.15.0-msvc-x86_64-wx32-10.0.20348-MSVC.tar.gz
 </tarball-url>
     <info-url> https://opencpn.org/OpenCPN/plugins/nmeaconvert.html </info-url>
+  </plugin>
+  <plugin version="1">
+    <name> Mayara </name>
+    <version> 0.1.3.0 </version>
+    <release> 0 </release>
+    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
+    <api-version> 1.21 </api-version>
+    <open-source> yes </open-source>
+    <author> opencpn-radar-pi </author>
+    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
+    <description>
+mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
+</description>
+    <target>flatpak-aarch64</target>
+    <build-target>flatpak</build-target>
+    <build-gtk/>
+    <target-version>25.08</target-version>
+    <target-arch>aarch64</target-arch>
+    <tarball-url>
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.3.0-flatpak-aarch64-25.08-flatpak-tarball/versions/v0.1.3/mayara_pi-0.1.3.0-aarch64_flatpak-25.08.tar.gz
+</tarball-url>
+    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> OCPN Draw </name>
@@ -11671,28 +11737,6 @@ https://dl.cloudsmith.io/public/opencpn/dashboardtactics-beta/raw/names/dashboar
     <tarball-checksum> c26d43cc872860470e2de91e4341b1f17cabc536a9aefaae0543bd920bb6648b </tarball-checksum>
   </plugin>
   <plugin version="1">
-    <name> Mayara </name>
-    <version> 0.1.0.0 </version>
-    <release> 0 </release>
-    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
-    <api-version> 1.21 </api-version>
-    <open-source> yes </open-source>
-    <author> opencpn-radar-pi </author>
-    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
-    <description>
-mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
-</description>
-    <target>darwin-wx32</target>
-    <build-target>darwin</build-target>
-    <build-gtk/>
-    <target-version>14.8.7</target-version>
-    <target-arch>arm64;x86_64</target-arch>
-    <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.0.0-darwin-wx32-arm64-x86_64-14.8.7-macos-tarball/versions/0.1.0.0+100.e125946/mayara_pi-0.1.0.0-darwin-wx32-arm64-x86_64-14.8.7-macos.tar.gz
-</tarball-url>
-    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
-  </plugin>
-  <plugin version="1">
     <name> ObjSearch </name>
     <version> v0.26.0 </version>
     <release>  </release>
@@ -13096,7 +13140,7 @@ https://dl.cloudsmith.io/public/opencpn/autopilot-route-prod/raw/names/autopilot
   </plugin>
   <plugin version="1">
     <name> Mayara </name>
-    <version> 0.1.0.0 </version>
+    <version> 0.1.3.0 </version>
     <release> 0 </release>
     <summary> Marine radar overlay and PPI, served by mayara-server </summary>
     <api-version> 1.21 </api-version>
@@ -13106,13 +13150,13 @@ https://dl.cloudsmith.io/public/opencpn/autopilot-route-prod/raw/names/autopilot
     <description>
 mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
 </description>
-    <target>debian-arm64</target>
+    <target>debian-x86_64</target>
     <build-target>debian</build-target>
     <build-gtk>gtk3</build-gtk>
     <target-version>12</target-version>
-    <target-arch>arm64</target-arch>
+    <target-arch>x86_64</target-arch>
     <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.0.0-debian-arm64-12-bookworm-tarball/versions/0.1.0.0+100.e125946/mayara_pi-0.1.0.0-debian-arm64-12-bookworm.tar.gz
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.3.0-debian-x86_64-12-bookworm-tarball/versions/v0.1.3/mayara_pi-0.1.3.0-debian-x86_64-12-bookworm.tar.gz
 </tarball-url>
     <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
   </plugin>
@@ -13396,7 +13440,7 @@ https://dl.cloudsmith.io/public/opencpn/ocpn_draw-beta/raw/names/ocpn_draw_pi-1.
   </plugin>
   <plugin version="1">
     <name> Mayara </name>
-    <version> 0.1.0.0 </version>
+    <version> 0.1.3.0 </version>
     <release> 0 </release>
     <summary> Marine radar overlay and PPI, served by mayara-server </summary>
     <api-version> 1.21 </api-version>
@@ -13412,7 +13456,7 @@ mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike r
     <target-version>25.08</target-version>
     <target-arch>x86_64</target-arch>
     <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.0.0-flatpak-x86_64-25.08-flatpak-tarball/versions/0.1.0.0+100.e125946/mayara_pi-0.1.0.0-x86_64_flatpak-25.08.tar.gz
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.3.0-flatpak-x86_64-25.08-flatpak-tarball/versions/v0.1.3/mayara_pi-0.1.3.0-x86_64_flatpak-25.08.tar.gz
 </tarball-url>
     <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
   </plugin>
@@ -14190,6 +14234,28 @@ such as dual radar range and Doppler.
     <target-arch>x86_64</target-arch>
     <tarball-url> https://dl.cloudsmith.io/public/opencpn-radar-pi/radar-beta/raw/names/Radar-v5.7.2-beta-flatpak-x86_64-24.08-tarball/versions/v5.7.2-beta/Radar-v5.7.2-beta_flatpak-x86_64-24.08-x86_64.tar.gz </tarball-url>
     <tarball-checksum> dceb4f743db444912ac01a7a28d70d406447a5e7ad025acbfaebee7d90a869a7 </tarball-checksum>
+  </plugin>
+  <plugin version="1">
+    <name> Mayara </name>
+    <version> 0.1.3.0 </version>
+    <release> 0 </release>
+    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
+    <api-version> 1.21 </api-version>
+    <open-source> yes </open-source>
+    <author> opencpn-radar-pi </author>
+    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
+    <description>
+mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
+</description>
+    <target>msvc-wx32</target>
+    <build-target>msvc</build-target>
+    <build-gtk/>
+    <target-version>10.0.20348</target-version>
+    <target-arch>x86</target-arch>
+    <tarball-url>
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.3.0-msvc-x86-wx32-10.0.20348-MSVC-tarball/versions/v0.1.3/mayara_pi-0.1.3.0-msvc-x86-wx32-10.0.20348-MSVC.tar.gz
+</tarball-url>
+    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> Tactics </name>
@@ -15595,6 +15661,28 @@ https://dl.cloudsmith.io/public/opencpn/dashboardtactics-beta/raw/names/dashboar
     <info-url> https://opencpn.org/OpenCPN/plugins/dashboardtactics.html </info-url>
   </plugin>
   <plugin version="1">
+    <name> Mayara </name>
+    <version> 0.1.3.0 </version>
+    <release> 0 </release>
+    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
+    <api-version> 1.21 </api-version>
+    <open-source> yes </open-source>
+    <author> opencpn-radar-pi </author>
+    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
+    <description>
+mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
+</description>
+    <target>debian-x86_64</target>
+    <build-target>debian</build-target>
+    <build-gtk>gtk3</build-gtk>
+    <target-version>22.04</target-version>
+    <target-arch>x86_64</target-arch>
+    <tarball-url>
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.3.0-debian-x86_64-22.04-jammy-tarball/versions/v0.1.3/mayara_pi-0.1.3.0-debian-x86_64-22.04-jammy.tar.gz
+</tarball-url>
+    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
+  </plugin>
+  <plugin version="1">
     <name> WeatherRouting </name>
     <version> 1.15.45.9-beta+1897.873d998 </version>
     <release> 9 </release>
@@ -16592,28 +16680,6 @@ WR features include: optimal routing subject to various constraints based on wea
 https://dl.cloudsmith.io/public/opencpn/weather-routing-beta/raw/names/weather_routing_pi-1.15.21.24-debian-armhf-12-bookworm-armhf-tarball/versions/v1.15.21.42/weather_routing_pi-1.15.21.24-debian-armhf-12-bookworm-armhf.tar.gz
 </tarball-url>
     <info-url> https://opencpn.org/OpenCPN/plugins/weatherroute.html </info-url>
-  </plugin>
-  <plugin version="1">
-    <name> Mayara </name>
-    <version> 0.1.0.0 </version>
-    <release> 0 </release>
-    <summary> Marine radar overlay and PPI, served by mayara-server </summary>
-    <api-version> 1.21 </api-version>
-    <open-source> yes </open-source>
-    <author> opencpn-radar-pi </author>
-    <source> https://github.com/opencpn-radar-pi/mayara_pi </source>
-    <description>
-mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike radar_pi it does not talk to radar hardware directly; it consumes the mayara-server REST and WebSocket API, which supports Navico, Garmin, Furuno and Raymarine radars.
-</description>
-    <target>debian-x86_64</target>
-    <build-target>debian</build-target>
-    <build-gtk>gtk3</build-gtk>
-    <target-version>24.04</target-version>
-    <target-arch>x86_64</target-arch>
-    <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-beta/raw/names/mayara_pi-0.1.0.0-debian-x86_64-24.04-noble-tarball/versions/0.1.0.0+100.e125946/mayara_pi-0.1.0.0-debian-x86_64-24.04-noble.tar.gz
-</tarball-url>
-    <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
   </plugin>
   <plugin version="1">
     <name> DashboardTactics </name>
