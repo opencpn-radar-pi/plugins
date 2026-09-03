@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
   <version>1</version>
-  <date>2026-09-02</date>
+  <date>2026-09-03</date>
   <plugin version="1">
     <meta-url>https://raw.githubusercontent.com/OpenCPN/plugins/Alpha/ocpn-plugins.xml</meta-url>
   </plugin>
@@ -26,7 +26,7 @@ mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike r
 <target-version>14.8.7</target-version>
 <target-arch>arm64;x86_64</target-arch>
 <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-darwin-wx32-arm64-x86_64-14.8.7-macos-tarball/versions/0.1.4.0+252.c2f01d9/mayara_pi-0.1.4.0-darwin-wx32-arm64-x86_64-14.8.7-macos.tar.gz
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-darwin-wx32-arm64-x86_64-14.8.7-macos-tarball/versions/0.1.4.0+270.fb335d7/mayara_pi-0.1.4.0-darwin-wx32-arm64-x86_64-14.8.7-macos.tar.gz
 </tarball-url>
 <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
 </plugin>
@@ -51,7 +51,7 @@ mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike r
 <target-version>12</target-version>
 <target-arch>arm64</target-arch>
 <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-arm64-12-bookworm-tarball/versions/0.1.4.0+252.c2f01d9/mayara_pi-0.1.4.0-debian-arm64-12-bookworm.tar.gz
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-arm64-12-bookworm-tarball/versions/0.1.4.0+270.fb335d7/mayara_pi-0.1.4.0-debian-arm64-12-bookworm.tar.gz
 </tarball-url>
 <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
 </plugin>
@@ -76,7 +76,7 @@ mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike r
 <target-version>13</target-version>
 <target-arch>arm64</target-arch>
 <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-arm64-13-trixie-tarball/versions/0.1.4.0+252.c2f01d9/mayara_pi-0.1.4.0-debian-arm64-13-trixie.tar.gz
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-arm64-13-trixie-tarball/versions/0.1.4.0+270.fb335d7/mayara_pi-0.1.4.0-debian-arm64-13-trixie.tar.gz
 </tarball-url>
 <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
 </plugin>
@@ -101,7 +101,7 @@ mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike r
 <target-version>22.04</target-version>
 <target-arch>armhf</target-arch>
 <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-armhf-22.04-jammy-tarball/versions/0.1.4.0+252.c2f01d9/mayara_pi-0.1.4.0-debian-armhf-22.04-jammy.tar.gz
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-armhf-22.04-jammy-tarball/versions/0.1.4.0+270.fb335d7/mayara_pi-0.1.4.0-debian-armhf-22.04-jammy.tar.gz
 </tarball-url>
 <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
 </plugin>
@@ -126,7 +126,7 @@ mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike r
 <target-version>24.04</target-version>
 <target-arch>armhf</target-arch>
 <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-armhf-24.04-noble-tarball/versions/0.1.4.0+252.c2f01d9/mayara_pi-0.1.4.0-debian-armhf-24.04-noble.tar.gz
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-armhf-24.04-noble-tarball/versions/0.1.4.0+270.fb335d7/mayara_pi-0.1.4.0-debian-armhf-24.04-noble.tar.gz
 </tarball-url>
 <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
 </plugin>
@@ -151,7 +151,7 @@ mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike r
 <target-version>12</target-version>
 <target-arch>x86_64</target-arch>
 <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-x86_64-12-bookworm-tarball/versions/0.1.4.0+252.c2f01d9/mayara_pi-0.1.4.0-debian-x86_64-12-bookworm.tar.gz
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-x86_64-12-bookworm-tarball/versions/0.1.4.0+270.fb335d7/mayara_pi-0.1.4.0-debian-x86_64-12-bookworm.tar.gz
 </tarball-url>
 <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
 </plugin>
@@ -176,7 +176,7 @@ mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike r
 <target-version>13</target-version>
 <target-arch>x86_64</target-arch>
 <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-x86_64-13-trixie-tarball/versions/0.1.4.0+252.c2f01d9/mayara_pi-0.1.4.0-debian-x86_64-13-trixie.tar.gz
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-x86_64-13-trixie-tarball/versions/0.1.4.0+270.fb335d7/mayara_pi-0.1.4.0-debian-x86_64-13-trixie.tar.gz
 </tarball-url>
 <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
 </plugin>
@@ -201,7 +201,7 @@ mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike r
 <target-version>22.04</target-version>
 <target-arch>x86_64</target-arch>
 <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-x86_64-22.04-jammy-tarball/versions/0.1.4.0+252.c2f01d9/mayara_pi-0.1.4.0-debian-x86_64-22.04-jammy.tar.gz
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-x86_64-22.04-jammy-tarball/versions/0.1.4.0+270.fb335d7/mayara_pi-0.1.4.0-debian-x86_64-22.04-jammy.tar.gz
 </tarball-url>
 <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
 </plugin>
@@ -226,7 +226,7 @@ mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike r
 <target-version>24.04</target-version>
 <target-arch>x86_64</target-arch>
 <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-x86_64-24.04-noble-tarball/versions/0.1.4.0+252.c2f01d9/mayara_pi-0.1.4.0-debian-x86_64-24.04-noble.tar.gz
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-debian-x86_64-24.04-noble-tarball/versions/0.1.4.0+270.fb335d7/mayara_pi-0.1.4.0-debian-x86_64-24.04-noble.tar.gz
 </tarball-url>
 <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
 </plugin>
@@ -251,7 +251,7 @@ mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike r
 <target-version>25.08</target-version>
 <target-arch>aarch64</target-arch>
 <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-flatpak-aarch64-25.08-flatpak-tarball/versions/0.1.4.0+252.c2f01d9/mayara_pi-0.1.4.0-aarch64_flatpak-25.08.tar.gz
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-flatpak-aarch64-25.08-flatpak-tarball/versions/0.1.4.0+270.fb335d7/mayara_pi-0.1.4.0-aarch64_flatpak-25.08.tar.gz
 </tarball-url>
 <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
 </plugin>
@@ -276,7 +276,7 @@ mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike r
 <target-version>25.08</target-version>
 <target-arch>x86_64</target-arch>
 <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-flatpak-x86_64-25.08-flatpak-tarball/versions/0.1.4.0+252.c2f01d9/mayara_pi-0.1.4.0-x86_64_flatpak-25.08.tar.gz
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-flatpak-x86_64-25.08-flatpak-tarball/versions/0.1.4.0+270.fb335d7/mayara_pi-0.1.4.0-x86_64_flatpak-25.08.tar.gz
 </tarball-url>
 <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
 </plugin>
@@ -301,7 +301,7 @@ mayara_pi displays marine radar as a chart overlay and in a PPI window. Unlike r
 <target-version>10.0.20348</target-version>
 <target-arch>x86</target-arch>
 <tarball-url>
-https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-msvc-x86-wx32-10.0.20348-MSVC-tarball/versions/0.1.4.0+252.c2f01d9/mayara_pi-0.1.4.0-msvc-x86-wx32-10.0.20348-MSVC.tar.gz
+https://dl.cloudsmith.io/public/opencpn-radar-pi/mayara-alpha/raw/names/mayara_pi-0.1.4.0-msvc-x86-wx32-10.0.20348-MSVC-tarball/versions/0.1.4.0+270.fb335d7/mayara_pi-0.1.4.0-msvc-x86-wx32-10.0.20348-MSVC.tar.gz
 </tarball-url>
 <info-url> https://github.com/opencpn-radar-pi/mayara_pi </info-url>
 </plugin>
